@@ -14,6 +14,14 @@
 		824E06B729C0040A00663004 /* SnowSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06B629C0040A00663004 /* SnowSpeedTests.swift */; };
 		824E06C129C0040A00663004 /* SnowSpeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06C029C0040A00663004 /* SnowSpeedUITests.swift */; };
 		824E06C329C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06C229C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift */; };
+		824E06D029C0043A00663004 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06CF29C0043A00663004 /* LocationManager.swift */; };
+		824E06D229C004AD00663004 /* SpeedRecorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06D129C004AD00663004 /* SpeedRecorder.swift */; };
+		824E06D429C0066600663004 /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06D329C0066600663004 /* HomePage.swift */; };
+		824E06D629C0079E00663004 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06D529C0079E00663004 /* CardView.swift */; };
+		824E06D929C0090300663004 /* SpeedRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06D829C0090300663004 /* SpeedRecord.swift */; };
+		824E06DB29C0118D00663004 /* RecordStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06DA29C0118D00663004 /* RecordStore.swift */; };
+		824E06DD29C013A100663004 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06DC29C013A100663004 /* ErrorWrapper.swift */; };
+		824E06DF29C013C900663004 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06DE29C013C900663004 /* ErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +52,14 @@
 		824E06BC29C0040A00663004 /* SnowSpeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		824E06C029C0040A00663004 /* SnowSpeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSpeedUITests.swift; sourceTree = "<group>"; };
 		824E06C229C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSpeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		824E06CF29C0043A00663004 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		824E06D129C004AD00663004 /* SpeedRecorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedRecorder.swift; sourceTree = "<group>"; };
+		824E06D329C0066600663004 /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		824E06D529C0079E00663004 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		824E06D829C0090300663004 /* SpeedRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedRecord.swift; sourceTree = "<group>"; };
+		824E06DA29C0118D00663004 /* RecordStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordStore.swift; sourceTree = "<group>"; };
+		824E06DC29C013A100663004 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
+		824E06DE29C013C900663004 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +110,16 @@
 		824E06A429C0040900663004 /* SnowSpeed */ = {
 			isa = PBXGroup;
 			children = (
+				824E06D729C008E400663004 /* Models */,
 				824E06A529C0040900663004 /* SnowSpeedApp.swift */,
 				824E06A729C0040900663004 /* ContentView.swift */,
+				824E06CF29C0043A00663004 /* LocationManager.swift */,
+				824E06D129C004AD00663004 /* SpeedRecorder.swift */,
 				824E06A929C0040A00663004 /* Assets.xcassets */,
 				824E06AB29C0040A00663004 /* Preview Content */,
+				824E06D329C0066600663004 /* HomePage.swift */,
+				824E06D529C0079E00663004 /* CardView.swift */,
+				824E06DE29C013C900663004 /* ErrorView.swift */,
 			);
 			path = SnowSpeed;
 			sourceTree = "<group>";
@@ -125,6 +147,16 @@
 				824E06C229C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift */,
 			);
 			path = SnowSpeedUITests;
+			sourceTree = "<group>";
+		};
+		824E06D729C008E400663004 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				824E06D829C0090300663004 /* SpeedRecord.swift */,
+				824E06DA29C0118D00663004 /* RecordStore.swift */,
+				824E06DC29C013A100663004 /* ErrorWrapper.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +289,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824E06DB29C0118D00663004 /* RecordStore.swift in Sources */,
+				824E06D429C0066600663004 /* HomePage.swift in Sources */,
 				824E06A829C0040900663004 /* ContentView.swift in Sources */,
+				824E06DD29C013A100663004 /* ErrorWrapper.swift in Sources */,
+				824E06D229C004AD00663004 /* SpeedRecorder.swift in Sources */,
+				824E06DF29C013C900663004 /* ErrorView.swift in Sources */,
 				824E06A629C0040900663004 /* SnowSpeedApp.swift in Sources */,
+				824E06D929C0090300663004 /* SpeedRecord.swift in Sources */,
+				824E06D629C0079E00663004 /* CardView.swift in Sources */,
+				824E06D029C0043A00663004 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +465,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,6 +495,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
