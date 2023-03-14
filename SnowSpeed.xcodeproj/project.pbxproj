@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		824E06A629C0040900663004 /* SnowSpeedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06A529C0040900663004 /* SnowSpeedApp.swift */; };
+		824E06A829C0040900663004 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06A729C0040900663004 /* ContentView.swift */; };
+		824E06AA29C0040A00663004 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824E06A929C0040A00663004 /* Assets.xcassets */; };
+		824E06AD29C0040A00663004 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 824E06AC29C0040A00663004 /* Preview Assets.xcassets */; };
+		824E06B729C0040A00663004 /* SnowSpeedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06B629C0040A00663004 /* SnowSpeedTests.swift */; };
+		824E06C129C0040A00663004 /* SnowSpeedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06C029C0040A00663004 /* SnowSpeedUITests.swift */; };
+		824E06C329C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824E06C229C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		824E06B329C0040A00663004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 824E069A29C0040900663004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 824E06A129C0040900663004;
+			remoteInfo = SnowSpeed;
+		};
+		824E06BD29C0040A00663004 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 824E069A29C0040900663004 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 824E06A129C0040900663004;
+			remoteInfo = SnowSpeed;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		824E06A229C0040900663004 /* SnowSpeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowSpeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		824E06A529C0040900663004 /* SnowSpeedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSpeedApp.swift; sourceTree = "<group>"; };
+		824E06A729C0040900663004 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		824E06A929C0040A00663004 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		824E06AC29C0040A00663004 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		824E06B229C0040A00663004 /* SnowSpeedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowSpeedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		824E06B629C0040A00663004 /* SnowSpeedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSpeedTests.swift; sourceTree = "<group>"; };
+		824E06BC29C0040A00663004 /* SnowSpeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowSpeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		824E06C029C0040A00663004 /* SnowSpeedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSpeedUITests.swift; sourceTree = "<group>"; };
+		824E06C229C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSpeedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		824E069F29C0040900663004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824E06AF29C0040A00663004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824E06B929C0040A00663004 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		824E069929C0040900663004 = {
+			isa = PBXGroup;
+			children = (
+				824E06A429C0040900663004 /* SnowSpeed */,
+				824E06B529C0040A00663004 /* SnowSpeedTests */,
+				824E06BF29C0040A00663004 /* SnowSpeedUITests */,
+				824E06A329C0040900663004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		824E06A329C0040900663004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				824E06A229C0040900663004 /* SnowSpeed.app */,
+				824E06B229C0040A00663004 /* SnowSpeedTests.xctest */,
+				824E06BC29C0040A00663004 /* SnowSpeedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		824E06A429C0040900663004 /* SnowSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				824E06A529C0040900663004 /* SnowSpeedApp.swift */,
+				824E06A729C0040900663004 /* ContentView.swift */,
+				824E06A929C0040A00663004 /* Assets.xcassets */,
+				824E06AB29C0040A00663004 /* Preview Content */,
+			);
+			path = SnowSpeed;
+			sourceTree = "<group>";
+		};
+		824E06AB29C0040A00663004 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				824E06AC29C0040A00663004 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		824E06B529C0040A00663004 /* SnowSpeedTests */ = {
+			isa = PBXGroup;
+			children = (
+				824E06B629C0040A00663004 /* SnowSpeedTests.swift */,
+			);
+			path = SnowSpeedTests;
+			sourceTree = "<group>";
+		};
+		824E06BF29C0040A00663004 /* SnowSpeedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				824E06C029C0040A00663004 /* SnowSpeedUITests.swift */,
+				824E06C229C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift */,
+			);
+			path = SnowSpeedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		824E06A129C0040900663004 /* SnowSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824E06C629C0040A00663004 /* Build configuration list for PBXNativeTarget "SnowSpeed" */;
+			buildPhases = (
+				824E069E29C0040900663004 /* Sources */,
+				824E069F29C0040900663004 /* Frameworks */,
+				824E06A029C0040900663004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowSpeed;
+			productName = SnowSpeed;
+			productReference = 824E06A229C0040900663004 /* SnowSpeed.app */;
+			productType = "com.apple.product-type.application";
+		};
+		824E06B129C0040A00663004 /* SnowSpeedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824E06C929C0040A00663004 /* Build configuration list for PBXNativeTarget "SnowSpeedTests" */;
+			buildPhases = (
+				824E06AE29C0040A00663004 /* Sources */,
+				824E06AF29C0040A00663004 /* Frameworks */,
+				824E06B029C0040A00663004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				824E06B429C0040A00663004 /* PBXTargetDependency */,
+			);
+			name = SnowSpeedTests;
+			productName = SnowSpeedTests;
+			productReference = 824E06B229C0040A00663004 /* SnowSpeedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		824E06BB29C0040A00663004 /* SnowSpeedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 824E06CC29C0040A00663004 /* Build configuration list for PBXNativeTarget "SnowSpeedUITests" */;
+			buildPhases = (
+				824E06B829C0040A00663004 /* Sources */,
+				824E06B929C0040A00663004 /* Frameworks */,
+				824E06BA29C0040A00663004 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				824E06BE29C0040A00663004 /* PBXTargetDependency */,
+			);
+			name = SnowSpeedUITests;
+			productName = SnowSpeedUITests;
+			productReference = 824E06BC29C0040A00663004 /* SnowSpeedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		824E069A29C0040900663004 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					824E06A129C0040900663004 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					824E06B129C0040A00663004 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 824E06A129C0040900663004;
+					};
+					824E06BB29C0040A00663004 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 824E06A129C0040900663004;
+					};
+				};
+			};
+			buildConfigurationList = 824E069D29C0040900663004 /* Build configuration list for PBXProject "SnowSpeed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 824E069929C0040900663004;
+			productRefGroup = 824E06A329C0040900663004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				824E06A129C0040900663004 /* SnowSpeed */,
+				824E06B129C0040A00663004 /* SnowSpeedTests */,
+				824E06BB29C0040A00663004 /* SnowSpeedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		824E06A029C0040900663004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824E06AD29C0040A00663004 /* Preview Assets.xcassets in Resources */,
+				824E06AA29C0040A00663004 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824E06B029C0040A00663004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824E06BA29C0040A00663004 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		824E069E29C0040900663004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824E06A829C0040900663004 /* ContentView.swift in Sources */,
+				824E06A629C0040900663004 /* SnowSpeedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824E06AE29C0040A00663004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824E06B729C0040A00663004 /* SnowSpeedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		824E06B829C0040A00663004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				824E06C129C0040A00663004 /* SnowSpeedUITests.swift in Sources */,
+				824E06C329C0040A00663004 /* SnowSpeedUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		824E06B429C0040A00663004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 824E06A129C0040900663004 /* SnowSpeed */;
+			targetProxy = 824E06B329C0040A00663004 /* PBXContainerItemProxy */;
+		};
+		824E06BE29C0040A00663004 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 824E06A129C0040900663004 /* SnowSpeed */;
+			targetProxy = 824E06BD29C0040A00663004 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		824E06C429C0040A00663004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		824E06C529C0040A00663004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		824E06C729C0040A00663004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnowSpeed/Preview Content\"";
+				DEVELOPMENT_TEAM = 7L7A5A22CY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feronci.SnowSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		824E06C829C0040A00663004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnowSpeed/Preview Content\"";
+				DEVELOPMENT_TEAM = 7L7A5A22CY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feronci.SnowSpeed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		824E06CA29C0040A00663004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7L7A5A22CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feronci.SnowSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowSpeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnowSpeed";
+			};
+			name = Debug;
+		};
+		824E06CB29C0040A00663004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7L7A5A22CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feronci.SnowSpeedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowSpeed.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnowSpeed";
+			};
+			name = Release;
+		};
+		824E06CD29C0040A00663004 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7L7A5A22CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feronci.SnowSpeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnowSpeed;
+			};
+			name = Debug;
+		};
+		824E06CE29C0040A00663004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7L7A5A22CY;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.feronci.SnowSpeedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnowSpeed;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		824E069D29C0040900663004 /* Build configuration list for PBXProject "SnowSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824E06C429C0040A00663004 /* Debug */,
+				824E06C529C0040A00663004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824E06C629C0040A00663004 /* Build configuration list for PBXNativeTarget "SnowSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824E06C729C0040A00663004 /* Debug */,
+				824E06C829C0040A00663004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824E06C929C0040A00663004 /* Build configuration list for PBXNativeTarget "SnowSpeedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824E06CA29C0040A00663004 /* Debug */,
+				824E06CB29C0040A00663004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		824E06CC29C0040A00663004 /* Build configuration list for PBXNativeTarget "SnowSpeedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				824E06CD29C0040A00663004 /* Debug */,
+				824E06CE29C0040A00663004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 824E069A29C0040900663004 /* Project object */;
+}
