@@ -18,6 +18,9 @@ class LocationManager: NSObject, ObservableObject {
     @Published var velocity: String = "?" {
         willSet { objectWillChange.send() }
     }
+    @Published var cityName: String = "UNKNOWN CITY"{
+        willSet { objectWillChange.send() }
+    }
         
     override init() {
         super.init()
@@ -34,12 +37,16 @@ class LocationManager: NSObject, ObservableObject {
     
 extension LocationManager: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        let location = locations.last
-        var s: Double = 3.6 * location!.speed
+        guard let location = locations.last else { return }
+        var s: Double = 3.6 * location.speed
         if s < 0 {
             s = 0
         }
         self.velocity = String(format: "%0.2f", s)
+        CLGeocoder().reverseGeocodeLocation(location) { placemarks, error in
+            guard let placemark = placemarks?.first else { return }
+            self.cityName = placemark.locality ?? ""
+        }
     }
 }
 

@@ -23,9 +23,9 @@ struct HomePage: View {
                 .listRowBackground(Color.orange)
             }
         }
-        .navigationTitle("Daily Scrums")
+        .navigationTitle("Speed Records")
         .toolbar {
-            NavigationLink(destination: ContentView()) {
+            NavigationLink(destination: ContentView(records: $records)) {
                 Image(systemName: "plus")
             }
             .accessibilityLabel("Start New Record")
